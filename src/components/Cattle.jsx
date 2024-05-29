@@ -1,5 +1,7 @@
 export const Cattle = () => {
     return (
-        console.log("牛部分")
-    )
-}
+        <div className="cattle">
+            <img src="./public/cattle.png"></img>
+        </div>
+    );
+};

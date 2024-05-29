@@ -1,5 +1,9 @@
-export const Navigation = () => {
+export const Navigation = (props) => {
     return (
-        console.log("操作部分")
+        <main>
+            <div className="cut-of-meat-area">
+            <button onClick={() => onClickYakiniku(index)}>焼肉</button>
+            </div>
+        </main>
     );
 };
