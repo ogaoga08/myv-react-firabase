@@ -326,9 +326,9 @@ export const App = () => {
     }
   };
 
-  console.log(`currentLevel : ${currentLevel}`);
-  console.log(`currentIndex : ${currentIndex}`);
-  console.log(`currentSubIndex : ${currentSubIndex}`);
+  // console.log(`currentLevel : ${currentLevel}`);
+  // console.log(`currentIndex : ${currentIndex}`);
+  // console.log(`currentSubIndex : ${currentSubIndex}`);
 
   return (
     <>

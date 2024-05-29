@@ -46,11 +46,11 @@ export const Navigation = (props) => {
         <div className="description-area">
           <h1>{detailChoice.name}</h1>
           <p>{detailChoice.descr}</p>
-          <ul>
+          <h4>
             <li>柔らかさ: {ratingStar(detailChoice.softness)}</li>
             <li>脂の量 : {ratingStar(detailChoice.fat)}</li>
-            <li>レア度 : {ratingStar(detailChoice.rare)}</li>
-          </ul>
+            <li>希少度 : {ratingStar(detailChoice.rare)}</li>
+          </h4>
         </div>
       );
     }
