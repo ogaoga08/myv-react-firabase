@@ -3,6 +3,7 @@ import "./App.css";
 import { Header } from "./components/Header";
 import { Cattle } from "./components/Cattle";
 import { Navigation } from "./components/Navigation";
+import { Modal } from "./components/Modal";
 
 const list = [
   {
@@ -286,6 +287,7 @@ export const App = () => {
   const [currentIndex, setCurrentIndex] = useState(null);
   const [currentSubIndex, setCurrentSubIndex] = useState(null);
   const [currentReserveIndex, setCurrentReserveIndex] = useState(null);
+  const [modalShow, setModalShow] = useState(false);
 
   const handleButtonClick = (index) => {
     if (currentLevel === 0) {
@@ -326,13 +328,22 @@ export const App = () => {
     }
   };
 
+  const handleOpenModal = () => {
+    setModalShow(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalShow(false);
+  };
+
   // console.log(`currentLevel : ${currentLevel}`);
   // console.log(`currentIndex : ${currentIndex}`);
   // console.log(`currentSubIndex : ${currentSubIndex}`);
 
   return (
     <>
-      <Header />
+      <Header openModal={handleOpenModal} />
+      <Modal show={modalShow} closeModal={handleCloseModal} />
       <main>
         <div className="main-container">
           <div className="cattle-area">
