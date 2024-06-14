@@ -4,7 +4,7 @@ export const Header = (props) => {
     <header>
       <div className="header">
         <h2>myv</h2>
-        {/* <button onClick={openModal}>=</button> */}
+        <button onClick={openModal}>=</button>
       </div>
     </header>
   );
