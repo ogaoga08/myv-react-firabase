@@ -101,7 +101,7 @@ button:hover {
   height: 3rem;
 }
 
-/* #overlay {
+#overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -119,4 +119,4 @@ button:hover {
   padding: 1em;
   background: #fff;
   border-radius: 0px 12px 12px 0px;
-} */
+}
