@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Cattle } from "./components/Cattle";
 import { Navigation } from "./components/Navigation";
 import { Modal } from "./components/Modal";
+import { SearchBar } from "./components/SearchBar";
 
 const list = [
   {
@@ -351,6 +352,10 @@ export const App = () => {
               currentLevel={currentLevel}
               currentIndex={currentIndex}
               currentSubIndex={currentSubIndex}
+            />
+          </div>
+          <div className="search-area">
+            <SearchBar
             />
           </div>
           <div className="cut-of-meat-area">

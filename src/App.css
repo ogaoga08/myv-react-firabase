@@ -48,11 +48,23 @@ h2 {
   max-width: 400px;
 }
 
+.search-area {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search-bar input {
+  width: 70%;
+  max-width:380px;
+}
+
 .cut-of-meat-area {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .description-area {
