@@ -7,7 +7,20 @@ export const Modal = (props) => {
         <div id="overlay" onClick={closeModal}></div>
           <div className="modal-area show">
             <div id="content">
-              <p>これがモーダルウィンドウです。</p>
+              <ul>
+                <li>
+                  <button>場所別に見る</button>
+                </li>
+                <li>
+                  <button>人気別に見る</button>
+                </li>
+                <li>
+                  <button>柔らかさ別に見る</button>
+                </li>
+                <li>
+                  <button>脂の量別に見る</button>
+                </li>
+              </ul>
               <button onClick={closeModal}>close</button>
             </div>
           </div>
