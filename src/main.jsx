@@ -5,7 +5,7 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCtXskBMEH2cnvnRYmB4fwTURc90mFV_Jg",
+  apiKey: "",
   authDomain: "myv-first.firebaseapp.com",
   projectId: "myv-first",
   storageBucket: "myv-first.appspot.com",
